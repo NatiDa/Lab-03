@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+footer{
+  font-size: 12px;
+  position: absolute;
+  background-color: #262626;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 2rem;
+ 
+}
+
+
+.footer-bs li{
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+   
+}
+.round{
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+.bot footer{
+    bottom: 0;
+}
+.pic img{
+    border-radius: 50%;
+    width: 150px;
+
+}
+ .faqs a:hover{
+    background-color: rgb(233, 227, 227);
+    text-decoration:none;
+} 
+.faqs a{
+    color: inherit;
+}
+
+.faqs h1{
+    
+    text-align:center;
+ 
+}
+.accordion .card{
+    border-radius: 0;
+    background: none;
+    border-left-width:0;
+    border-right-width:0; 
+}
+.accordion .card .card-header{
+    background: none;
+    padding-top:7px;
+    padding-bottom: 7px;
+    border-radius: 0;
+}
+.accordion .card-header h2{
+    font-size: 1rem;
+
+}
+.login-form{
+    padding: 5%;
+    margin-top: 5%;
+    
+}
+
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+.login-form .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
